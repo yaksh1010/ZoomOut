@@ -6,7 +6,7 @@ import 'package:zoomout/utils/colors.dart';
 import 'package:zoomout/widgets/custom_button.dart';
 
 class HomeScreen extends StatefulWidget {
-  const HomeScreen({Key? key}) : super(key: key);
+  const HomeScreen({super.key});
 
   @override
   State<HomeScreen> createState() => _HomeScreenState();

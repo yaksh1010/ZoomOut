@@ -4,7 +4,7 @@ import 'package:zoomout/utils/colors.dart';
 import 'package:intl/intl.dart';
 
 class HistoryMeetingScreen extends StatelessWidget {
-  const HistoryMeetingScreen({Key? key}) : super(key: key);
+  const HistoryMeetingScreen({super.key});
 
   @override
   Widget build(BuildContext context) {

@@ -5,7 +5,7 @@ import 'package:zoomout/resources/jitsi_meet_methods.dart';
 import 'package:zoomout/widgets/home_meeting_button.dart';
 
 class MeetingScreen extends StatelessWidget {
-  MeetingScreen({Key? key}) : super(key: key);
+  MeetingScreen({super.key});
 
   final JitsiMeetMethods _jitsiMeetMethods = JitsiMeetMethods();
 

@@ -1,0 +1,54 @@
+{
+  "project_info": {
+    "project_number": "873312634879",
+    "project_id": "zoomout-e68d2",
+    "storage_bucket": "zoomout-e68d2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:873312634879:android:83d09bfb4fc951c57549ca",
+        "android_client_info": {
+          "package_name": "com.example.zoomout"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "873312634879-mm9s14514en67rlf813o2n1hs68m90bk.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.zoomout",
+            "certificate_hash": "8cdf9557212513dae6628ee956758b5e21002a58"
+          }
+        },
+        {
+          "client_id": "873312634879-5sib1mbhptfodqb165nrcnf4s2kbt22s.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAEh3TFe83cSdRji2IhagBbjLkgFNqIM8A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "873312634879-5sib1mbhptfodqb165nrcnf4s2kbt22s.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "873312634879-c10loiij4u2r0lovab1993fvs74k5akr.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.zoomout"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

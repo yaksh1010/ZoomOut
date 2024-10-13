@@ -6,11 +6,11 @@ class MeetingOption extends StatelessWidget {
   final bool isMute;
   final Function(bool) onChange;
   const MeetingOption({
-    Key? key,
+    super.key,
     required this.text,
     required this.isMute,
     required this.onChange,
-  }) : super(key: key);
+  });
 
   @override
   Widget build(BuildContext context) {

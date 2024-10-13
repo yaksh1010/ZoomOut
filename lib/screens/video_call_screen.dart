@@ -6,7 +6,7 @@ import 'package:zoomout/utils/colors.dart';
 import 'package:zoomout/widgets/meeting_option.dart';
 
 class VideoCallScreen extends StatefulWidget {
-  const VideoCallScreen({Key? key}) : super(key: key);
+  const VideoCallScreen({super.key});
 
   @override
   State<VideoCallScreen> createState() => _VideoCallScreenState();

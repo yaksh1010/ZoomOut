@@ -39,7 +39,7 @@ class AuthMethods {
         }
         res = true;
       }
-    } on FirebaseAuthException catch (e) {
+    } on FirebaseAuthException catch (e) { //only catches the firebase auth exceptions 
       showSnackBar(context, e.message!);
       res = false;
     }

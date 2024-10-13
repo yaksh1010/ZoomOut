@@ -6,11 +6,11 @@ class HomeMeetingButton extends StatelessWidget {
   final IconData icon;
   final String text;
   const HomeMeetingButton({
-    Key? key,
+    super.key,
     required this.onPressed,
     required this.icon,
     required this.text,
-  }) : super(key: key);
+  });
 
   @override
   Widget build(BuildContext context) {
